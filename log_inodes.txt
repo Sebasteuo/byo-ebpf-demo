@@ -1,0 +1,1 @@
+0:0:3828138:/var/log/demo.log

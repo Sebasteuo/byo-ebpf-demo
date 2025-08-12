@@ -1,0 +1,26 @@
+# build & temp
+perf_*/
+logs_*/
+traces_*/
+run_*/
+tmp/
+*.tmp
+
+# raw outputs (keep only curated ones we copy to data/raw)
+results_*.csv
+results_perf_*.csv
+
+# data
+data/raw/*
+!data/raw/results_perf_baseline_*.csv
+!data/raw/results_perf_ebpf_*.csv
+data/summary_*.csv
+data/overhead_*.txt
+
+# editors
+*.swp
+.DS_Store
+parsec-3.0/
+parsec-3.0-src/
+*.ods
+ebpf/*.o

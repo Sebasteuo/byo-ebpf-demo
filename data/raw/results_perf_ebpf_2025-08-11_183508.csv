@@ -1,0 +1,21 @@
+timestamp,pkg,input,threads,mode,run_idx,elapsed_s,task_clock_ms,cycles,instructions,branches,branch_misses,ctx_switches,migrations,page_faults,exit_code
+2025-08-11T18:35:08-06:00,blackscholes,simlarge,4,ebpf,1,0.13,133.26,<not supported>,<not supported>,<not supported>,<not supported>,482,36,94655,0
+2025-08-11T18:35:08-06:00,blackscholes,simlarge,4,ebpf,2,0.14,130.12,<not supported>,<not supported>,<not supported>,<not supported>,501,36,94586,0
+2025-08-11T18:35:08-06:00,blackscholes,simlarge,4,ebpf,3,0.14,138.91,<not supported>,<not supported>,<not supported>,<not supported>,505,16,95397,0
+2025-08-11T18:35:09-06:00,blackscholes,simlarge,4,ebpf,4,0.13,135.69,<not supported>,<not supported>,<not supported>,<not supported>,496,21,95446,0
+2025-08-11T18:35:09-06:00,blackscholes,simlarge,4,ebpf,5,0.14,141.27,<not supported>,<not supported>,<not supported>,<not supported>,520,31,95447,0
+2025-08-11T18:35:09-06:00,swaptions,simlarge,4,ebpf,1,0.42,1233.69,<not supported>,<not supported>,<not supported>,<not supported>,1228,24,94627,0
+2025-08-11T18:35:10-06:00,swaptions,simlarge,4,ebpf,2,0.42,1235.62,<not supported>,<not supported>,<not supported>,<not supported>,1469,41,95432,0
+2025-08-11T18:35:11-06:00,swaptions,simlarge,4,ebpf,3,0.41,1230.43,<not supported>,<not supported>,<not supported>,<not supported>,1172,29,95135,0
+2025-08-11T18:35:11-06:00,swaptions,simlarge,4,ebpf,4,0.44,1312.62,<not supported>,<not supported>,<not supported>,<not supported>,1227,20,95416,0
+2025-08-11T18:35:12-06:00,swaptions,simlarge,4,ebpf,5,0.43,1244.52,<not supported>,<not supported>,<not supported>,<not supported>,1464,37,94648,0
+2025-08-11T18:35:12-06:00,streamcluster,simlarge,4,ebpf,1,0.50,1505.75,<not supported>,<not supported>,<not supported>,<not supported>,2356,64,97193,0
+2025-08-11T18:35:13-06:00,streamcluster,simlarge,4,ebpf,2,0.52,1544.51,<not supported>,<not supported>,<not supported>,<not supported>,3054,77,96533,0
+2025-08-11T18:35:14-06:00,streamcluster,simlarge,4,ebpf,3,0.53,1571.22,<not supported>,<not supported>,<not supported>,<not supported>,4870,50,97173,0
+2025-08-11T18:35:14-06:00,streamcluster,simlarge,4,ebpf,4,0.58,1650.29,<not supported>,<not supported>,<not supported>,<not supported>,4321,121,96334,0
+2025-08-11T18:35:15-06:00,streamcluster,simlarge,4,ebpf,5,0.52,1556.34,<not supported>,<not supported>,<not supported>,<not supported>,4143,48,96374,0
+2025-08-11T18:35:16-06:00,canneal,simlarge,4,ebpf,1,0.18,127.29,<not supported>,<not supported>,<not supported>,<not supported>,488,39,94085,0
+2025-08-11T18:35:16-06:00,canneal,simlarge,4,ebpf,2,0.18,128.19,<not supported>,<not supported>,<not supported>,<not supported>,515,24,94281,0
+2025-08-11T18:35:16-06:00,canneal,simlarge,4,ebpf,3,0.17,125.69,<not supported>,<not supported>,<not supported>,<not supported>,470,30,94043,0
+2025-08-11T18:35:17-06:00,canneal,simlarge,4,ebpf,4,0.18,126.75,<not supported>,<not supported>,<not supported>,<not supported>,490,33,94096,0
+2025-08-11T18:35:17-06:00,canneal,simlarge,4,ebpf,5,0.18,121.59,<not supported>,<not supported>,<not supported>,<not supported>,505,28,94307,0

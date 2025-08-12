@@ -1,0 +1,15 @@
+
+ Performance counter stats for './latency_test.sh 30':
+
+         29,174.91 msec task-clock                       #    1.003 CPUs utilized             
+           162,360      cs                               #    5.565 K/sec                     
+             7,165      migrations                       #  245.588 /sec                      
+   <not supported>      cycles                                                                
+   <not supported>      instructions                                                          
+
+      29.101749014 seconds time elapsed
+
+      18.082272000 seconds user
+      10.293972000 seconds sys
+
+

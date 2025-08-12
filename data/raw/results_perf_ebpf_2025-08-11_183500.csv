@@ -1,0 +1,5 @@
+timestamp,pkg,input,threads,mode,run_idx,elapsed_s,task_clock_ms,cycles,instructions,branches,branch_misses,ctx_switches,migrations,page_faults,exit_code
+2025-08-11T18:35:00-06:00,blackscholes,simlarge,4,ebpf,1,0.16,157.77,<not supported>,<not supported>,<not supported>,<not supported>,526,50,95443,0
+2025-08-11T18:35:00-06:00,swaptions,simlarge,4,ebpf,1,0.42,1242.99,<not supported>,<not supported>,<not supported>,<not supported>,1513,32,94819,0
+2025-08-11T18:35:00-06:00,streamcluster,simlarge,4,ebpf,1,0.61,1690.82,<not supported>,<not supported>,<not supported>,<not supported>,4754,140,96507,0
+2025-08-11T18:35:01-06:00,canneal,simlarge,4,ebpf,1,0.18,125.82,<not supported>,<not supported>,<not supported>,<not supported>,492,24,94121,0
