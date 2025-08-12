@@ -24,3 +24,10 @@ parsec-3.0/
 parsec-3.0-src/
 *.ods
 ebpf/*.o
+# heavy runtime artifacts
+evidence/logs/
+traces_*/
+logs_*/
+perf_*/
+*.bpf.txt
+*.bpf.err
