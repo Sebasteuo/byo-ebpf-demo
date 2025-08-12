@@ -1,0 +1,13 @@
+Commit: f63dc93
+Tag:    v0.3-results-dirty
+Kernel: 6.8.0-63-generic
+OS: Ubuntu 24.04.3 LTS
+bpftrace: bpftrace v0.20.2
+perf:     perf version 6.8.12
+perf_event_paranoid: 1
+Architecture:                         aarch64
+Model name:                           -
+Thread(s) per core:                   1
+Core(s) per cluster:                  4
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-3

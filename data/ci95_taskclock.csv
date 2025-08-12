@@ -1,0 +1,5 @@
+pkg,delta_taskclock_pct,ci95_pct
+blackscholes,2.02%,±7.94%
+canneal,10.12%,±2.22%
+streamcluster,0.60%,±1.49%
+swaptions,-1.95%,±2.08%
