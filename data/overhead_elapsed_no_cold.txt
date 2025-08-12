@@ -1,0 +1,4 @@
+blackscholes,2.92%
+streamcluster,2.83%
+swaptions,-2.57%
+canneal,7.79%

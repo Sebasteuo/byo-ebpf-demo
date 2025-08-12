@@ -1,0 +1,5 @@
+pkg,mode,n,elapsed_avg_s,elapsed_min_s,elapsed_max_s,taskclk_avg_ms,taskclk_min_ms,taskclk_max_ms
+blackscholes,ebpf,10,0.141000,0.120000,0.180000,141.51,122.52,165.65
+streamcluster,ebpf,10,0.473000,0.460000,0.490000,1467.73,1438.50,1497.32
+swaptions,ebpf,10,0.948000,0.930000,0.990000,3376.33,3364.70,3411.90
+canneal,ebpf,10,0.166000,0.160000,0.170000,118.77,116.73,120.68

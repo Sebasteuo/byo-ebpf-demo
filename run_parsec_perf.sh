@@ -25,8 +25,8 @@ PARSECDIR="${PARSECDIR:-$REPO_DIR/parsec-3.0}"
 PARSECPLAT="${PARSECPLAT:-$(uname -m)-linux}"
 export PARSECDIR PARSECPLAT PATH="$PARSECDIR/bin:$PATH"
 
-PKGS=(${PKGS:-blackscholes swaptions streamcluster canneal})
-INPUT="${INPUT:-simlarge}"
+PKGS=(blackscholes swaptions streamcluster canneal)
+INPUT="simlarge"
 THREADS="${THREADS:-4}"
 RUNS="${RUNS:-10}"
 

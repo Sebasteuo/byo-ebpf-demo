@@ -1,0 +1,5 @@
+pkg,mode,n,elapsed_avg_s,elapsed_min_s,elapsed_max_s,taskclk_avg_ms,taskclk_min_ms,taskclk_max_ms
+streamcluster,baseline,10,0.460000,0.440000,0.490000,1459.01,1421.05,1524.01
+swaptions,baseline,10,0.973000,0.930000,1.070000,3443.56,3359.14,3757.26
+canneal,baseline,10,0.154000,0.150000,0.170000,107.86,105.22,118.40
+blackscholes,baseline,10,0.137000,0.120000,0.180000,138.71,126.22,158.42

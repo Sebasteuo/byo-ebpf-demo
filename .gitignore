@@ -35,3 +35,14 @@ perf_*/
 # backup files
 *.bak.*
 *~
+
+# --- keep paper result artifacts ---
+!data/
+!data/raw/
+!data/summary_baseline.csv
+!data/summary_ebpf_no_cold.csv
+!data/overhead_elapsed_no_cold.txt
+!data/overhead_taskclock_no_cold.txt
+!data/raw/ebpf_no_cold.csv
+!data/raw/results_perf_baseline_*.csv
+!data/raw/results_perf_ebpf_*.csv
