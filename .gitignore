@@ -31,3 +31,7 @@ logs_*/
 perf_*/
 *.bpf.txt
 *.bpf.err
+
+# backup files
+*.bak.*
+*~

@@ -30,6 +30,18 @@ INPUT="${INPUT:-simlarge}"
 THREADS="${THREADS:-4}"
 RUNS="${RUNS:-10}"
 
+# Ensure swaptions pthreads binary exists on aarch64 (PARSEC's TBB is broken here)
+ensure_swaptions_if_needed() {
+  if [[ " ${PKGS[*]} " == *" swaptions "* ]]; then
+    local bin="$PARSECDIR/pkgs/apps/swaptions/inst/${PARSECPLAT}.gcc/bin/swaptions"
+    [[ -x "$bin" ]] || "$SCRIPT_DIR/scripts/build_swaptions_pthreads.sh"
+  fi
+}
+ensure_swaptions_if_needed
+
+
+
+
 MODE="${1:-}"
 [[ "$MODE" == "baseline" || "$MODE" == "ebpf" ]] || { echo "Usage: $0 {baseline|ebpf}"; exit 1; }
 
